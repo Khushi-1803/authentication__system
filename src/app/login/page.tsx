@@ -74,9 +74,10 @@ export default function LoginPage(){
           </div>
           <button
             type="submit"
+            disabled={buttonDisabled}
             className="w-full bg-blue-500 text-white py-2 rounded-xl hover:bg-blue-600 transition"
           >
-           {buttonDisabled ? "No Nologin" : "Login"}
+           {buttonDisabled ? "No login" : "Login"}
           </button>
         </form>
         <Link className="mt-4" href="/signup">Visit Signup Page</Link>

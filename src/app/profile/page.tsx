@@ -12,7 +12,7 @@ export default function ProfilePage() {
         try {
           await axios.post("/api/users/logout")
           toast.success("Logout sucessfull")
-          router.push("/login")
+          router.push("/signup")
         } catch (error:any) {
           console.log(error.message);
           toast.error(error.message)
