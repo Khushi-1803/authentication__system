@@ -94,7 +94,14 @@ export default function SignPage(){
           </button>
         </form>
         <Link className="mt-4" href="/login">Visit Login Page</Link>
+         <Link
+        href="/forgot-password"
+        className="text-blue-400 block mt-2 text-sm"
+        >
+        Forgot Password?
+        </Link>
         </div>
+       
         </div>
     )
    
